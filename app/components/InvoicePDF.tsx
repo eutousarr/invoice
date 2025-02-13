@@ -81,7 +81,7 @@ const InvoicePDF: React.FC<FacturePDFProps> = ({ invoice, totals }) => {
                   <span className="text-2xl font-bold italic">
                     Kis@rr<span className="text-orange-500">-WEB</span>
                   </span>
-                  <div className="absolute top-[-24] left-[90%] bg-transparent text-orange-500  rounded-3xl p-1">
+                  <div className="absolute top-[-10] left-[75%] bg-transparent text-orange-500  rounded-3xl p-1">
                     <SatelliteDish className="h-8 w-8" />
                   </div>
                   <hr className="border-b-2 border-orange-500 w-[160px]"/>
