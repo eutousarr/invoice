@@ -34,7 +34,7 @@ const InvoicePDF: React.FC<FacturePDFProps> = ({ invoice, totals }) => {
         const pdf = new jsPDF({
           orientation: "portrait",
           unit: "mm",
-          format: "A5",
+          format: "A4",
         });
 
         const pdfWidth = pdf.internal.pageSize.getWidth();
